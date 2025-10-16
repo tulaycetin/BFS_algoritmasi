@@ -54,10 +54,14 @@ Her düğüm ve kenar **en fazla bir kez işlenir**.
 * Ağ veya sosyal bağlantı analizi
 * Web tarayıcı indeksleme
 * En kısa bağlantı veya minimum seviye arama problemleri
+---
 
-
+ ## Örnek 
 
 <img width="298" height="181" alt="Ekran görüntüsü 2025-10-17 015014" src="https://github.com/user-attachments/assets/78cf4226-8bd8-4cee-b831-8f29c4aede78" />
+
+
+---
 
 | Adım | Kuyruk (Queue) | Ziyaret Edilenler               | Açıklama                       |
 | ---- | -------------- | ------------------------------- | ------------------------------ |
