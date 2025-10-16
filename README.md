@@ -1,4 +1,59 @@
-# BFS_algoritmasi
+**BFS (Breadth-First Search) – Genişlik Öncelikli Arama Algoritması**
+
+---
+
+### 🔹 **Tanım**
+
+**BFS (Breadth-First Search)**, bir graf üzerinde arama veya gezme işlemi yapan temel bir algoritmadır.
+Bir başlangıç noktasından başlayarak önce o noktaya komşu olan **tüm düğümleri (noktaları)** ziyaret eder, ardından bu komşuların komşularına geçer.
+Yani, **grafı katman katman (seviye seviye)** dolaşır.
+
+---
+
+### 🔹 **Çalışma Mantığı**
+
+BFS algoritması **kuyruk (queue)** veri yapısını kullanır.
+Her adımda:
+
+1. Başlangıç düğümünden başlanır ve ziyaret edilir.
+2. Bu düğümün **komşuları kuyruğa eklenir**.
+3. Kuyruğun başındaki düğüm alınır, işlenir ve onun komşuları kuyruğa eklenir.
+4. Kuyruk boşalana kadar bu işlem devam eder.
+
+---
+
+### 🔹 **Algoritmanın Adımları**
+
+Bir graf ( G = (V, E) ) ve başlangıç düğümü ( s ) olsun:
+
+1. Tüm düğümler **ziyaret edilmemiş** olarak işaretlenir.
+2. Başlangıç düğümü ( s ) **ziyaret edilmiş** olarak işaretlenir ve **kuyruğa eklenir**.
+3. Kuyruk boşalana kadar:
+
+   * Kuyruğun başındaki düğüm ( u ) alınır.
+   * ( u )’nun **ziyaret edilmemiş tüm komşuları** ziyaret edilir ve kuyruğa eklenir.
+4. Tüm düğümler ziyaret edilince algoritma sona erer.
+
+---
+
+### 🔹 **Zaman Karmaşıklığı**
+
+* **O(V + E)**
+  Burada
+
+  * ( V ): Düğüm sayısı
+  * ( E ): Kenar sayısı
+
+Her düğüm ve kenar **en fazla bir kez işlenir**.
+
+---
+
+### 🔹 **Uygulama Alanları**
+
+* En kısa yol bulma (özellikle ağırlıksız graflarda)
+* Ağ veya sosyal bağlantı analizi
+* Web tarayıcı indeksleme
+* En kısa bağlantı veya minimum seviye arama problemleri
 
 
 
